@@ -1,7 +1,4 @@
-Github How-To
-~~~~~~~~~~~~~
-Version 0.1
-
+# How-To Github
 
 Creating new project:
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -12,6 +9,7 @@ git add .
 git commit -m "First Commit"
 git remote add origin https://github.com/ilsh1964/My-Repository.git                                       -------- ---------
 push -u origin master
+
 
 Deleting files on github:
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -32,11 +30,18 @@ Get changes FROM GitHub (These commands will bring all the new stuff from GitHub
 git checkout
 git pull
 
+
+How to clone github project to your local machine ?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. cd Dropbox/Git dir
+2. Find github repo address (find it in GitHub repo page)
+3. Copy the address in the box (git@github.com……/….git)
+4. git clone git@github.com……/….git
+
+
                
-
-
-GENERAL GITHUB EXPLANATION:
-- We recommend every repository include a README, LICENSE, and .gitignore.
+## GENERAL GITHUB REAMRKS:
+- We recommend every repository include README, LICENSE, and .gitignore.
 - Push an existing repository from the command line:
   git remote add origin https://github.com/ilsh1964/EXAMPLE_FILE.git
   git push -u origin master
