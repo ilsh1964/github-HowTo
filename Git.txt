@@ -16,3 +16,9 @@ commit -m "removed some files"
 git push origin master
 
 
+Updating git with updated files:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+git add My_Changed_File
+commit -m "My commit explanation"
+
+
