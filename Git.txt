@@ -2,9 +2,9 @@ Creating a new project:
 ~~~~~~~~~~~~~~~~~~~~~~
 
 cd My-Repository
-git init                    # Starting new project
-git add README.md			# Add README.md file
-git add .                   # Add all files to github
+git init                    
+git add README.md			
+git add .                  
 git commit -m "First Commit"
 git remote add origin https://github.com/ilsh1964/My-Repository.git                                       -------- ---------
 push -u origin master
