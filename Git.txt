@@ -20,7 +20,7 @@ Updating git with updated files:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 git add My_Changed_File
 commit -m "My commit explanation"
-
+git push
 
 
 GENERAL GITHUB EXPLANATION:
