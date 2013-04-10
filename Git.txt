@@ -23,7 +23,6 @@ commit -m "My commit explanation"
 
 
 
-
 GENERAL GITHUB EXPLANATION:
 - We recommend every repository include a README, LICENSE, and .gitignore.
 - Push an existing repository from the command line:
