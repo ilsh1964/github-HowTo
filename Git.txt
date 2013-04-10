@@ -8,12 +8,12 @@ git add README.md
 git add .                  
 git commit -m "First Commit"
 git remote add origin https://github.com/ilsh1964/My-Repository.git                                       -------- ---------
-push -u origin master
+git push -u origin master
 
 
 Deleting files on github:
 ~~~~~~~~~~~~~~~~~~~~~~~~~
-add . -A 
+git add . -A 
 git commit -m "removed some files"
 git push origin master
 
@@ -34,9 +34,8 @@ git pull
 How to clone github project to your local machine ?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 1. cd Dropbox/Git dir
-2. Find github repo address (find it in GitHub repo page)
-3. Copy the address in the box (git@github.com……/….git)
-4. git clone git@github.com……/….git
+2. Copy github repo address (find it in GitHub repo page: git@github.com……/….git)
+3. git clone git@github.com……/….git
 
 
                
