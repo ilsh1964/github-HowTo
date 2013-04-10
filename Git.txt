@@ -1,6 +1,10 @@
-Creating a new project:
-~~~~~~~~~~~~~~~~~~~~~~
+Github How-To
+~~~~~~~~~~~~~
+Version 0.1
 
+
+Creating new project:
+~~~~~~~~~~~~~~~~~~~~~~
 cd My-Repository
 git init                    
 git add README.md			
@@ -21,6 +25,14 @@ Updating git with updated files:
 git add My_Changed_File
 commit -m "My commit explanation"
 git push
+
+
+Get changes FROM GitHub (These commands will bring all the new stuff from GitHub to your machine):
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+git checkout
+git pull
+
+               
 
 
 GENERAL GITHUB EXPLANATION:
