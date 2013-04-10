@@ -22,3 +22,14 @@ git add My_Changed_File
 commit -m "My commit explanation"
 
 
+
+
+GENERAL GITHUB EXPLANATION:
+- We recommend every repository include a README, LICENSE, and .gitignore.
+- Push an existing repository from the command line:
+  git remote add origin https://github.com/ilsh1964/EXAMPLE_FILE.git
+  git push -u origin master
+
+
+
+
