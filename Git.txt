@@ -40,7 +40,7 @@ How to clone github project to your local machine ?
 
                
 ## GENERAL GITHUB REAMRKS:
-- We recommend every repository include README, LICENSE, and .gitignore.
+- We recommend every repository include README, LICENSE, and .gitignore
 - Push an existing repository from the command line:
   git remote add origin https://github.com/ilsh1964/EXAMPLE_FILE.git
   git push -u origin master
