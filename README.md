@@ -34,6 +34,7 @@
     $ git tag -l v1.0*                     \* Search tags via wildcard
     $ git show v1.01 
     $ git diff v1.0 v1.01 
+    $ git push --tags                      \* To push tags to github.com
 
 
 ## Cloning github project to your local machine
