@@ -33,7 +33,7 @@
 
                
 ## REAMRKS
-Every repository should include README, LICENSE, and .gitignore
+Every repository should include README.md, LICENSE.md, and .gitignore
 
 
 
