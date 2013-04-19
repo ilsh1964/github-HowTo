@@ -29,6 +29,7 @@
 
 ## Tags and Diff
     $ cd project_dir
+    $ git tag                              \* To show all tags
     $ git tag -a v1.01 -m 'version 1.01'   \* To add new tag 
     $ git tag -l v1.0*                     \* Search tags via wildcard
     $ git show v1.01 
