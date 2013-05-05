@@ -39,6 +39,12 @@
     $ git diff v1.0 v1.01                  \* Show diff between tag version v1.0 & v1.01
 
 
+## Why is Git always asking for my password?
+    $ Add ~/.ssh/id_rsa.pub to your github account (menu->SSH Keys)
+    $ Copy the repository SSH link (instead of HTTPS) 
+    $ Run: git remote set-url origin THE_SSH_LINK_ABOVE
+
+
 ## Cloning github project to your local machine
     $ cd Dropbox/Git dir
     $ git clone git@github.com……/….git
