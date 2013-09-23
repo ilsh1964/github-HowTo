@@ -1,0 +1,40 @@
+Working Locally With Git:
+~~~~~~~~~~~~~~~~~~~~~~~~~
+Video Tutorial: http://www.youtube.com/watch?v=mYjZtU1-u9Y
+
+cd  PROJECT_DIR
+git config --global user.name "YOUR_NAME"
+git config --global user.email "YOUR_EMAIL"
+git init 
+git status (what files have changed/not tracked and hints on what to do)
+git add .  (or git add FILE_NAME)
+git rm --cached FILENAME (to un-track FILENAME)
+git add FILENAME (to monitor FILENAME again)
+git commit -m "My First Commit"
+git log (to see your commits)
+
+
+Modify\Change your files
+git status (you'll notify that the file was updated and you need to commit the changes)
+git diff (To see the changes on your files since last commit)
+git diff --cached
+git add .
+git commit -m "My Second Commit"
+git log (if the log is too large: hold shift + zz  to exit
+
+
+
+Usefull commands:
+git log --oneline (to see compact list of commits, only with it's commit text msg)
+git commit -a -m "some msg" (add files and commit in one command)
+gt status -s (show what has changed in compact list)    
+
+
+
++------------+          +------------+           +------------------+         +-------------------+
+|            |--add---> |INDEX CACHE |--commit-> | Local Repository +--push-->| Remote Repository |
+| Working Dir|          +------------+           +----------v---^---+-<-pull--+-------------------+                   
+|            |<-----------checkout HEAD---------------------+   |pull                |
+|------------+<------------------pull---------------------------^--------------------|
+                                                                                   
+                                                                                    
