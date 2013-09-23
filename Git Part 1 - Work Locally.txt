@@ -20,7 +20,7 @@ git diff (To see the changes on your files since last commit)
 git diff --cached
 git add .
 git commit -m "My Second Commit"
-git log (if the log is too large: hold shift + zz  to exit
+git log (if the log is too large: hold shift + zz  to exit)
 
 
 
