@@ -12,6 +12,8 @@ git rm --cached FILENAME (to un-track FILENAME)
 git add FILENAME (to monitor FILENAME again)
 git commit -m "My First Commit"
 git log (to see your commits)
+git log --pretty=oneline (see the changes in one compact line)
+git checkout SHA_NUMBER THE_FILENAME
 
 
 Modify\Change your files
