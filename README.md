@@ -41,7 +41,6 @@
 
 ## Why is Git always asking for my password?
     $ Add ~/.ssh/id_rsa.pub to your github account (menu->SSH Keys)
-    $ Copy the repository SSH link (instead of HTTPS) 
     $ git remote set-url origin git+ssh://git@github.com/username/reponame.git
 
 
