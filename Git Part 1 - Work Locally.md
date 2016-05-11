@@ -2,32 +2,32 @@
 
 ### Creating a brand new git repository
 
-*cd  PROJECT_DIR
+* cd  PROJECT_DIR
 
-*git config --global user.name "YOUR_NAME" 
+* git config --global user.name "YOUR_NAME" 
 
-*git config --global user.email "YOUR_EMAIL" 
+* git config --global user.email "YOUR_EMAIL" 
 
-*git init* Creating a brand new Git repository in this directory
+* git init * Creating a brand new Git repository in this directory
 
 
 ### Worging with git
 
-*git status* What files have changed/not tracked and hints on what to do
+* git status * What files have changed/not tracked and hints on what to do
 
-*git add .* Add all changed files
+* git add . * Add all changed files
 
-*git rm --cached FILENAME* to un-track FILENAME
+* git rm --cached FILENAME * to un-track FILENAME
 
-*git add FILENAME* Add FILENAME again
+* git add FILENAME * Add FILENAME again
 
-*git commit -m "My First Commit"
+* git commit -m "My First Commit"
 
-*git log* To see your commits
+* git log* To see your commits
 
-*git log --pretty=oneline* See the changes in one compact line
+* git log --pretty=oneline * See the changes in one compact line
 
-*git checkout SHA_NUMBER 
+* git checkout SHA_NUMBER 
 
 
 ### Modify\Change your files
