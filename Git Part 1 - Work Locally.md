@@ -12,23 +12,24 @@
 
 
 
-## Worging with git
+
+## Working with git
 
 **git status** - What files have changed/not tracked and hints on what to do
 
-* git add . * Add all changed files
+**git add .** - Add all changed files
 
-* git rm --cached FILENAME * to un-track FILENAME
+**git rm --cached FILENAME** - to un-track FILENAME
 
-* git add FILENAME * Add FILENAME again
+**git add FILENAME** - Add FILENAME again
 
-* git commit -m "My First Commit"
+**git commit -m "My First Commit"
 
-* git log* To see your commits
+**git log** - To see your commits
 
-* git log --pretty=oneline * See the changes in one compact line
+**git log --pretty=oneline** - See the changes in one compact line
 
-* git checkout SHA_NUMBER 
+**git checkout SHA_NUMBER**
 
 
 ### Modify\Change your files
