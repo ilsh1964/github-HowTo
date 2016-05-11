@@ -71,7 +71,7 @@ b900c412b20d0ae61e4f81f3ec60766bce8f107a file1.txt: Add line 3
 ```
 
 
-##Branches
+##Branch and Merging
 
 **git branch** - show all brances
 
@@ -83,9 +83,9 @@ b900c412b20d0ae61e4f81f3ec60766bce8f107a file1.txt: Add line 3
 
 **git commit -m "commit in the new branch"**
 
-**git checkout master** - Go to the master branch - without line 5
+**git checkout master** - Go to the master branch - without file1.txt
 
-**git merge proj_v2** - Merge file1.txt  from proj_v2 branch
+**git merge proj_v2** - Merge file1.txt from proj_v2 branch
 
 **git branch -d proj_v2** - deleting branch
 
