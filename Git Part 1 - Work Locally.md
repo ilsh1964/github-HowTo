@@ -12,7 +12,6 @@
 
 
 
-
 ## Working with git
 
 **git status** - What files have been changed and hints on what to do
@@ -38,6 +37,7 @@
 **git checkout SHA_NUMBER** - go to previous version of tghe file
 
 
+
 ## Modify\Change your files
 
 **git diff** - To see the changes on your files since last commit
@@ -49,14 +49,13 @@
 **git log** 
 
 
+
 ## Checkout
 
 **git log --pretty=oneline**
 ```
 b900c412b20d0ae61e4f81f3ec60766bce8f107a file1.txt: Add line 3
-
 2f52aa202095e16a660a5c479524622f6e3c36d2 file1.txt: Add line 2
-
 3c2df3030561f5a49defb108441a7dd850ac1857 Adding file1.txt
 ```
 
@@ -65,7 +64,6 @@ b900c412b20d0ae61e4f81f3ec60766bce8f107a file1.txt: Add line 3
 **git log --pretty=oneline**
 ```
 2f52aa202095e16a660a5c479524622f6e3c36d2 file1.txt: Add line 2
-
 3c2df3030561f5a49defb108441a7dd850ac1857 Adding file1.txt
 ```
 
@@ -74,11 +72,10 @@ b900c412b20d0ae61e4f81f3ec60766bce8f107a file1.txt: Add line 3
 **git log --pretty=oneline**
 ```
 b900c412b20d0ae61e4f81f3ec60766bce8f107a file1.txt: Add line 3
-
 2f52aa202095e16a660a5c479524622f6e3c36d2 file1.txt: Add line 2
-
 3c2df3030561f5a49defb108441a7dd850ac1857 Adding file1.txt
 ```
+
 
 ##Branches
 
