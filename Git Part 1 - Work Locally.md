@@ -14,15 +14,15 @@
 
 ## Working with git
 
-**git status** - What files have been changed and hints on what to do
-
-**git status -s** - Show what has been changed in compact list
-
 **git add .** - Add all changed files
+
+**git add FILENAME** - Add FILENAME again
 
 **git rm --cached FILENAME** - to un-track FILENAME
 
-**git add FILENAME** - Add FILENAME again
+**git status** - What files have been changed and hints on what to do
+
+**git status -s** - Show what has been changed in compact list
 
 **git commit -m "My First Commit"**
 
@@ -38,15 +38,9 @@
 
 
 
-## Modify\Change your files
+## Diff
 
 **git diff** - To see the changes on your files since last commit
-
-**git add .**
-
-**git commit -m "My Second Commit"**
-
-**git log** 
 
 
 
