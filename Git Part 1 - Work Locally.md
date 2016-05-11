@@ -1,31 +1,33 @@
 # Working Locally With Git:
 
-### Creating new git repository
-**cd  PROJECT_DIR**
+### Creating a brand new git repository
 
-**git config --global user.name "YOUR_NAME" **
+*cd  PROJECT_DIR
 
-**git config --global user.email "YOUR_EMAIL" **
+*git config --global user.name "YOUR_NAME" 
 
-**git init** Creating a brand new Git repository in this directory
+*git config --global user.email "YOUR_EMAIL" 
+
+*git init* Creating a brand new Git repository in this directory
 
 
 ### Worging with git
-**git status** What files have changed/not tracked and hints on what to do)
 
-**git add .** Add all changed files
+*git status* What files have changed/not tracked and hints on what to do
 
-**git rm --cached FILENAME** to un-track FILENAME
+*git add .* Add all changed files
 
-**git add FILENAME** Add FILENAME again
+*git rm --cached FILENAME* to un-track FILENAME
 
-**git commit -m "My First Commit"
+*git add FILENAME* Add FILENAME again
 
-**git log** To see your commits
+*git commit -m "My First Commit"
 
-**git log --pretty=oneline** See the changes in one compact line
+*git log* To see your commits
 
-**git checkout SHA_NUMBER 
+*git log --pretty=oneline* See the changes in one compact line
+
+*git checkout SHA_NUMBER 
 
 
 ### Modify\Change your files
