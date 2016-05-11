@@ -52,32 +52,33 @@
 ## Checkout
 
 **git log --pretty=oneline**
-
+```
 b900c412b20d0ae61e4f81f3ec60766bce8f107a file1.txt: Add line 3
 
 2f52aa202095e16a660a5c479524622f6e3c36d2 file1.txt: Add line 2
 
 3c2df3030561f5a49defb108441a7dd850ac1857 Adding file1.txt
-
+```
 
 **git checkout 2f52aa202095e16a660a5c479524622f6e3c36d2**
 
 **git log --pretty=oneline**
-
+```
 2f52aa202095e16a660a5c479524622f6e3c36d2 file1.txt: Add line 2
 
 3c2df3030561f5a49defb108441a7dd850ac1857 Adding file1.txt
+```
 
 **git checkout master** - return to the master branch
 
 **git log --pretty=oneline**
-
+```
 b900c412b20d0ae61e4f81f3ec60766bce8f107a file1.txt: Add line 3
 
 2f52aa202095e16a660a5c479524622f6e3c36d2 file1.txt: Add line 2
 
 3c2df3030561f5a49defb108441a7dd850ac1857 Adding file1.txt
-
+```
 
 ##Branches
 
