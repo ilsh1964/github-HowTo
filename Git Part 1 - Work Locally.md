@@ -1,6 +1,6 @@
 # Working Locally With Git:
 
-### Creating a brand new git repository
+## Creating a brand new git repository
 
 **cd  PROJECT_DIR**
 
@@ -8,12 +8,13 @@
 
 **git config --global user.email "YOUR_EMAIL"**
 
-**git init** Create a brand new Git repository in this directory
+**git init** - Create a brand new Git repository in this directory
 
 
-### Worging with git
 
-* git status * What files have changed/not tracked and hints on what to do
+## Worging with git
+
+**git status** - What files have changed/not tracked and hints on what to do
 
 * git add . * Add all changed files
 
