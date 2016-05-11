@@ -17,6 +17,8 @@
 
 **git status** - What files have been changed and hints on what to do
 
+**git status -s** - Show what has been changed in compact list
+
 **git add .** - Add all changed files
 
 **git rm --cached FILENAME** - to un-track FILENAME
@@ -24,6 +26,8 @@
 **git add FILENAME** - Add FILENAME again
 
 **git commit -m "My First Commit"**
+
+**git commit -a -m "some msg"** - Add files and commit in one command
 
 **git log** - To see all your commits
 
@@ -83,19 +87,14 @@ b900c412b20d0ae61e4f81f3ec60766bce8f107a file1.txt: Add line 3
 
 **git checkout proj_v2** - working with the new branch
 
-**git add file1.txt
+**git add file1.txt**
 
-**git commit -m "commit in the new branch"
+**git commit -m "commit in the new branch"**
 
-**git checkout master (go to the master branch - without line 5)
+**git checkout master** - Go to the master branch - without line 5
 
-**git merge proj_v2 (merge file1.txt  from proj_v2 branch)
+**git merge proj_v2** - Merge file1.txt  from proj_v2 branch
 
-**git branch -d proj_v2 (deleting branch)
+**git branch -d proj_v2** - deleting branch
 
-
-Usefull commands:
-git log --oneline (to see compact list of commits, only with it's commit text msg)
-git commit -a -m "some msg" (add files and commit in one command)
-gt status -s (show what has changed in compact list)    
 
