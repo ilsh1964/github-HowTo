@@ -2,13 +2,13 @@
 
 ### Creating a brand new git repository
 
-* **cd  PROJECT_DIR**
+** cd  PROJECT_DIR **
 
-* **git config --global user.name "YOUR_NAME" **
+** git config --global user.name "YOUR_NAME" **
 
-* **git config --global user.email "YOUR_EMAIL" **
+** git config --global user.email "YOUR_EMAIL" **
 
-* **git init * Creating a brand new Git repository in this directory**
+** git init ** Creating a brand new Git repository in this directory
 
 
 ### Worging with git
