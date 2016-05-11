@@ -4,8 +4,7 @@
 #####cd  PROJECT_DIR
 #####git config --global user.name "YOUR_NAME"
 #####git config --global user.email "YOUR_EMAIL"
-#####git init
-###### creating a brand new Git repository in this directory
+#####git init ###### creating a brand new Git repository in this directory
 
 ### Worging with git
 git status (what files have changed/not tracked and hints on what to do)
