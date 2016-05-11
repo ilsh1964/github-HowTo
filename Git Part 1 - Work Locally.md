@@ -1,29 +1,30 @@
-## Working Locally With Git:
+# Working Locally With Git:
 
-#### Creating new git repository
-#####cd  PROJECT_DIR
-#####git config --global user.name "YOUR_NAME"
-#####git config --global user.email "YOUR_EMAIL"
-#####git init ###### creating a brand new Git repository in this directory
+### Creating new git repository
+**cd  PROJECT_DIR**
+**git config --global user.name "YOUR_NAME" **
+**git config --global user.email "YOUR_EMAIL" **
+**git init** Creating a brand new Git repository in this directory
+
 
 ### Worging with git
-git status (what files have changed/not tracked and hints on what to do)
-git add .  (or git add FILENAME)
-git rm --cached FILENAME (to un-track FILENAME)
-git add FILENAME (to monitor FILENAME again)
-git commit -m "My First Commit"
-git log (to see your commits)
-git log --pretty=oneline (see the changes in one compact line)
-git checkout SHA_NUMBER THE_FILENAME
+**git status** What files have changed/not tracked and hints on what to do)
+**git add .** Add all changed files
+**git rm --cached FILENAME** to un-track FILENAME
+**git add FILENAME** Add FILENAME again
+**git commit -m "My First Commit"
+**git log** To see your commits
+**git log --pretty=oneline** See the changes in one compact line
+**git checkout SHA_NUMBER 
 
 
-Modify\Change your files
-git status (you'll notify that the file was updated and you need to commit the changes)
-git diff (To see the changes on your files since last commit)
-git diff --cached
-git add .
-git commit -m "My Second Commit"
-git log (if the log is too large: hold shift + zz  to exit)
+### Modify\Change your files
+#####git status (you'll notify that the file was updated and you need to commit the changes)
+#####git diff (To see the changes on your files since last commit)
+#####git diff --cached
+#####git add .
+#####git commit -m "My Second Commit"
+#####git log (if the log is too large: hold shift + zz  to exit)
 
 
 Checkout: suppose you have this situation
