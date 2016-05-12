@@ -22,13 +22,17 @@
 
 ## Working with git
 
-**git add .** - Add all changed files
+**git add .** - Add all changed files to stage area
 
-**git add *.txt** - Add all *.txt files
+**git add *.txt** - Add all *.txt files to stage area
 
 **git add FILENAME** - Add FILENAME again
 
-**git rm --cached FILENAME** - to un-track FILENAME
+**git rm --cached FILENAME** - to un-track FILENAME (remove from staging area)
+
+**git rm -f FILENAME** - Delete FILENAME from os
+
+**git mv XXX YYY** - Rename filename XXX to YYY
 
 **git status** - What files have been changed and hints on what to do
 
@@ -78,6 +82,25 @@ b900c412b20d0ae61e4f81f3ec60766bce8f107a file1.txt: Add line 3
 b900c412b20d0ae61e4f81f3ec60766bce8f107a file1.txt: Add line 3
 2f52aa202095e16a660a5c479524622f6e3c36d2 file1.txt: Add line 2
 3c2df3030561f5a49defb108441a7dd850ac1857 Adding file1.txt
+```
+
+
+##Git Log
+```
+git log # Shows all of the previous commit messages in reverse order
+git log --pretty=oneline # Shows commits on one line
+git log --pretty=format:"%h : %an : %ar : %s"
+  %h - Abbreviated Hash
+  %an - Authors Name
+  %ar - Date Changed
+  %s - First Line of Comment
+git log -p -2 # Shows the last 2 commit changes
+git log --stat # Prints abbreviated stats
+git log --since=1.weeks # Show only changes in the last week
+git log --since="2014-04-12" # Show changes since this date
+git log --author="Derek Banas" # Changes made by author
+git log --before="2014-04-13" # Changes made before this date
+
 ```
 
 
