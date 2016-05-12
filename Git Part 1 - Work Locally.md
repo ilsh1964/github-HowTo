@@ -8,6 +8,14 @@
 
 **git config --global user.email "YOUR_EMAIL"**
 
+**git config --global core.editor "vim"** - Change the default editor
+
+**git config --list** - Show your config
+
+**git help** - Bring all git help command
+
+**git help add** - help on add command
+
 **git init** - Create a brand new Git repository in this directory
 
 
@@ -15,6 +23,8 @@
 ## Working with git
 
 **git add .** - Add all changed files
+
+**git add *.txt** - Add all *.txt files
 
 **git add FILENAME** - Add FILENAME again
 
@@ -88,5 +98,14 @@ b900c412b20d0ae61e4f81f3ec60766bce8f107a file1.txt: Add line 3
 **git merge proj_v2** - Merge file1.txt from proj_v2 branch
 
 **git branch -d proj_v2** - deleting branch
+
+
+##.gitignore 
+
+*.apk
+
+*.exe
+
+bin/
 
 
