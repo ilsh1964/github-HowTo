@@ -1,69 +1,45 @@
 # Working Locally With Git:
 
 ## Creating a brand new git repository
-
+```
 **cd  PROJECT_DIR**
-
 **git --version - Print Git version
-
 **git config --global user.name "YOUR_NAME"**
-
 **git config --global user.email "YOUR_EMAIL"**
-
 **git config --global core.editor "vim"** - Change the default editor
-
 **git config --list** - Show your config
-
 **git help** - Bring all git help command
-
 **git help add** - help on add command
-
+```
 
 
 ## Working with git
-
+```
 **git init** - Create a brand new Git repository in this directory
-
 **git add .** - Add all changed files to stage area
-
 **git add -A** - Add all changed files to stage area
-
 **git add *.txt** - Add all *.txt files to stage area
-
 **git add FILENAME** - Add FILENAME again
-
 **git reset FILENAME** - Remove file from staging area
-
 **git reset ** - Remove all files from staging area
-
 **git rm --cached FILENAME** - to un-track FILENAME (remove from staging area)
-
 **git rm -f FILENAME** - Delete FILENAME from os
-
 **git mv XXX YYY** - Rename filename XXX to YYY
-
 **git status** - What files have been changed and hints on what to do
-
 **git status -s** - Show what has been changed in compact list
-
 **git commit -m "My First Commit"**
-
 **git commit -a -m "some msg"** - Add files and commit in one command
-
 **git log** - To see all your commits
-
 **git log --pretty=oneline** - See the changes in one compact line
-
 **git log --oneline** - For compact list of commits
-
 **git checkout SHA_NUMBER** - go to previous version of tghe file
-
+```
 
 
 ## Diff
-
+```
 **git diff** - To see the changes on your files since last commit
-
+```
 
 
 ## Checkout
@@ -144,7 +120,7 @@ bin/
 **git branch** see all branches. *new_branch_name is the activated bransh
 **make changes to the source code**
 **git add -A**
-**git commit -m "message"** it commit the changed to the branch. it's no effect to the master or remote repository
+**git commit -m "message"**commit changes to branch - no effect to master\remote repository
 **git push -u origin new_branch_name** push this branch to remote repository
 **git merge new_branch_name** merge new_branch_name with master branch
 **git push origin master** push this branch to remote repository
