@@ -14,30 +14,30 @@ $ git help add                                # help on add command
 
 ## Working with git
 ```
-**git init** - Create a brand new Git repository in this directory
-**git add .** - Add all changed files to stage area
-**git add -A** - Add all changed files to stage area
-**git add *.txt** - Add all *.txt files to stage area
-**git add FILENAME** - Add FILENAME again
-**git reset FILENAME** - Remove file from staging area
-**git reset ** - Remove all files from staging area
-**git rm --cached FILENAME** - to un-track FILENAME (remove from staging area)
-**git rm -f FILENAME** - Delete FILENAME from os
-**git mv XXX YYY** - Rename filename XXX to YYY
-**git status** - What files have been changed and hints on what to do
-**git status -s** - Show what has been changed in compact list
-**git commit -m "My First Commit"**
-**git commit -a -m "some msg"** - Add files and commit in one command
-**git log** - To see all your commits
-**git log --pretty=oneline** - See the changes in one compact line
-**git log --oneline** - For compact list of commits
-**git checkout SHA_NUMBER** - go to previous version of tghe file
+$ git init                                    # Create a brand new Git repository in this directory
+$ git add .                                   # Add all changes files to the stage area
+$ git add -A                                  # Add all changes files (inc removed) to staging area
+$ git add *.txt                               # Add all *.txt files to the stage area
+$ git add FILENAME                            # Add FILENAME again
+$ git reset FILENAME                          # Remove file from staging area
+$ git reset                                   # Remove all files from staging area
+$ git rm --cached FILENAME                    # To untrack FILENAME (remove from staging area)
+$ git rm -f FILENAME                          # Delete FILENAME from os
+$ git mv XXX YYY                              # Rename filename XXX to YYY
+$ git status                                  # What files have been changed
+$ git status -s                               # Show what has been changed in compact list
+$ git commit -m "My First Commit"             # Commit
+$ git commit -a -m "some msg"                 # Add files + commit in one command
+$ git log                                     # See all your commits
+$ git log --pretty=oneline                    # See the changes in one compact line
+$ git log --oneline                           # Compact list of commits
+$ git checkout SHA_NUMBER                     # go to previous version of the file
 ```
 
 
 ## Diff
 ```
-**git diff** - To see the changes on your files since last commit
+$ git diff                                    # See changes on files since last commit
 ```
 
 
