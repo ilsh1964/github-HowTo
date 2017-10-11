@@ -120,6 +120,8 @@ git log --before="2014-04-13" # Changes made before this date
 
 **git checkout proj_v2** - working with the new branch
 
+**git checkout -b proj_v2** - create a new branch and jump to it
+
 **git add file1.txt**
 
 **git commit -m "commit in the new branch"**
@@ -128,17 +130,14 @@ git log --before="2014-04-13" # Changes made before this date
 
 **git merge proj_v2** - Merge file1.txt from proj_v2 branch
 
-**git branch -d proj_v2** - deleting branch
+**git branch -d proj_v2** - deleting merge  branch
+
+**git branch -D proj_v2** - deleting dont merge  branch
 
 
 ##.gitignore  (must be in project dir - not in .git)
-
 *.apk
-
-*.exe
-
 .ThisDir
-
 bin/
 
 
