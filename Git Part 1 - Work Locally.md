@@ -136,15 +136,20 @@ git log --before="2014-04-13" # Changes made before this date
 
 
 ##.gitignore  (must be in project dir - not in .git)
+
 *.apk
+
+*.exe
+
 .ThisDir
+
 bin/
 
 
 ##Common workflow:
-**git branch new_branch_name** 
+**git branch new_branch_name**
 **git branch** see all branches. *master is the activated bransh
-**git checkout new_branch_name**start working with the new branch 
+**git checkout new_branch_name**start working with the new branch
 **git branch** see all branches. *new_branch_name is the activated bransh
 **make changes to the source code**
 **git add -A**
