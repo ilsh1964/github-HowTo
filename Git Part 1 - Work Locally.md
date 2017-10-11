@@ -89,46 +89,45 @@ git log --before="2014-04-13" # Changes made before this date
 
 ## Branching and Merging
 ```
-# git branch                                  # Show all brances
-# git branch proj_v2                          # Create a new brand called proj_v2
-# git checkout proj_v2                        # Working with the new branch
-# git checkout -b proj_v2                     # Create a new branch and jump to it
-# git add file1.txt                           # 
-# git commit -m "commit in the new branch"    # 
-# git checkout master                         # Go to the master branch - without file1.txt
-# git merge proj_v2                           # Merge file1.txt from proj_v2 branch
-# git branch -d proj_v2                       # Deleting merge  branch
-# git branch -D proj_v2                       # Deleting dont merge  branch
+$ git branch                                  # Show all brances
+$ git branch proj_v2                          # Create a new brand called proj_v2
+$ git checkout proj_v2                        # Working with the new branch
+$ git checkout -b proj_v2                     # Create a new branch and jump to it
+$ git add file1.txt                           # 
+$ git commit -m "commit in the new branch"    # 
+$ git checkout master                         # Go to the master branch - without file1.txt
+$ git merge proj_v2                           # Merge file1.txt from proj_v2 branch
+$ git branch -d proj_v2                       # Deleting merge  branch
+$ git branch -D proj_v2                       # Deleting dont merge  branch
 ```
 
 
 ##.gitignore  (must be in project dir - not in .git)
 ```
 *.apk
-*.exe
-.ThisDir
-bin/
+.ThisFile
+ThisDir/
 ```
 
 
-##Common workflow
+## Common workflow
 ```
-**git branch new_branch_name**
-**git branch** see all branches. *master is the activated bransh
-**git checkout new_branch_name**start working with the new branch
-**git branch** see all branches. *new_branch_name is the activated bransh
-**make changes to the source code**
-**git add -A**
-**git commit -m "message"**commit changes to branch - no effect to master\remote repository
-**git push -u origin new_branch_name** push this branch to remote repository
-**git merge new_branch_name** merge new_branch_name with master branch
-**git push origin master** push this branch to remote repository
-**git branch -d new_branch_name** delete not needed branch
+$ git branch new_branch_name  
+$ git branch                                  # See all branches (*master is the activated branch)
+$ git checkout new_branch_name                # Start working with the new branch
+$ git branch                                  # See all branches. *new_branch_name is the activated branch
+$ make changes to the source code             #
+$ git add -A                                  #
+$ git commit -m "message"                     # Commit changes to the branch (no effect to master\remote repository)
+$ git push -u origin new_branch_name          # Push this branch to remote repository
+$ git merge new_branch_name                   # Merge new_branch_name with master branch
+$ git push origin master                      # Push this branch to remote repository
+$ git branch -d new_branch_name               # Delete not needed branch
 ```
 
 
 ## Remarks
 ```
-** The stage area allow you all the time to add several files and commit them
-** it allow you not committing all files at ones)
+- The stage area allow you to add all the time several files and commit them
+- It allows you not commit all files at ones
 ```
