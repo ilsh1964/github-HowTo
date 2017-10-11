@@ -146,17 +146,28 @@ git log --before="2014-04-13" # Changes made before this date
 bin/
 
 
-##Common workflow:
+##Common workflow
+
 **git branch new_branch_name**
+
 **git branch** see all branches. *master is the activated bransh
+
 **git checkout new_branch_name**start working with the new branch
+
 **git branch** see all branches. *new_branch_name is the activated bransh
+
 **make changes to the source code**
+
 **git add -A**
+
 **git commit -m "message"** it commit the changed to the branch. it's no effect to the master or remote repository
+
 **git push -u origin new_branch_name** push this branch to remote repository
+
 **git merge new_branch_name** merge new_branch_name with master branch
+
 **git push origin master** push this branch to remote repository
+
 **git branch -d new_branch_name** delete not needed branch
 
 
