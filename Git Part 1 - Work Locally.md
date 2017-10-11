@@ -112,66 +112,48 @@ git log --before="2014-04-13" # Changes made before this date
 ```
 
 
-##Branch and Merging
-
+##Branching and Merging
+```
 **git branch** - show all brances
-
 **git branch proj_v2** - create a new brand called proj_v2
-
 **git checkout proj_v2** - working with the new branch
-
 **git checkout -b proj_v2** - create a new branch and jump to it
-
 **git add file1.txt**
-
 **git commit -m "commit in the new branch"**
-
 **git checkout master** - Go to the master branch - without file1.txt
-
 **git merge proj_v2** - Merge file1.txt from proj_v2 branch
-
 **git branch -d proj_v2** - deleting merge  branch
-
 **git branch -D proj_v2** - deleting dont merge  branch
+```
 
 
 ##.gitignore  (must be in project dir - not in .git)
-
+```
 *.apk
-
 *.exe
-
 .ThisDir
-
 bin/
+```
 
 
 ##Common workflow
-
+```
 **git branch new_branch_name**
-
 **git branch** see all branches. *master is the activated bransh
-
 **git checkout new_branch_name**start working with the new branch
-
 **git branch** see all branches. *new_branch_name is the activated bransh
-
 **make changes to the source code**
-
 **git add -A**
-
 **git commit -m "message"** it commit the changed to the branch. it's no effect to the master or remote repository
-
 **git push -u origin new_branch_name** push this branch to remote repository
-
 **git merge new_branch_name** merge new_branch_name with master branch
-
 **git push origin master** push this branch to remote repository
-
 **git branch -d new_branch_name** delete not needed branch
-
+```
 
 
 ## Remarks
-*** The stage area allow you all time add several files and commit them (it allow
-you nor commit all files al ones)
+```
+** The stage area allow you all the time to add several files and commit them
+** it allow you not committing all files at ones)
+```
