@@ -52,11 +52,13 @@
 ## BRANCH
 ```
 Branches are a way of working on various versions of a single repository simultaneously.
-By default, any single repository created is assigned a branch called MASTER and it is considered the final branch.
+By default, any single repository created is assigned a branch called MASTER and it is considered
+the final branch.
 
 To make a branch after creating the repository:
 1. Go to your new repository by clicking on the repository name
-2. Click on the “Branch-Master” button at the top to see a drop-down menu with a blank field for filling the branch name.
+2. Click on the “Branch-Master” button at the top to see a drop-down menu with a blank field for
+   filling the branch name.
 3. Enter the branch name
 4. Press “Enter” or click on the blue “create- branch” box
 5. By now two branches have been created; master and your new name branch
