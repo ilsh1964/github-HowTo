@@ -49,8 +49,8 @@
     $ git clone git@github.com……/….git
 
 
-BRANCHING
----------
+## BRANCH
+```
 Branches are a way of working on various versions of a single repository simultaneously.
 By default, any single repository created is assigned a branch called MASTER and it is considered the final branch.
 
@@ -60,9 +60,10 @@ To make a branch after creating the repository:
 3. Enter the branch name
 4. Press “Enter” or click on the blue “create- branch” box
 5. By now two branches have been created; master and your new name branch
-
+```
 
 ## REAMRKS
+```
 - Every repository should include README.md, LICENSE.md, and .gitignore
 - Good source: http://www.linuxandubuntu.com/home/getting-started-with-github
 - ssh -T git@github.com                     \* To check the ssh key against github
@@ -73,7 +74,4 @@ To make a branch after creating the repository:
 - git remote -v  show information about git
 - git branch -a
 - git pull bring all changes from last pull
-
-
-
-
+```
