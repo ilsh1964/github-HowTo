@@ -29,14 +29,14 @@
 
 ## Tags and Diff
     $ cd project_dir
-    $ git tag                              \* To show all tags
-    $ git tag -a v1.01 -m 'version 1.01'   \* To add new tag (follow with the next command)
-    $ git push --tags                      \* To push the new tag to github.com
-    $ git tag -d v1.01                     \* To delete tag (follow with the next command)
-    $ git push origin :refs/tags/v1.01     \* Update github.com with previous tag deleting
-    $ git tag -l v1.0*                     \* Search tags via wildcard
-    $ git show v1.01                       \* Show tag version v1.01
-    $ git diff v1.0 v1.01                  \* Show diff between tag version v1.0 & v1.01
+    $ git tag                              # To show all tags
+    $ git tag -a v1.01 -m 'version 1.01'   # To add new tag (follow with the next command)
+    $ git push --tags                      # To push the new tag to github.com
+    $ git tag -d v1.01                     # To delete tag (follow with the next command)
+    $ git push origin :refs/tags/v1.01     # Update github.com with previous tag deleting
+    $ git tag -l v1.0*                     # Search tags via wildcard
+    $ git show v1.01                       # Show tag version v1.01
+    $ git diff v1.0 v1.01                  # Show diff between tag version v1.0 & v1.01
 
 
 ## Why is Git always asking for my password?
@@ -46,7 +46,7 @@
 
 ## Cloning github project to your local machine
     $ cd Dropbox/Git dir
-    $ git clone git@github.com……/….git
+    $ git clone git@github.com/…git
 
 
 ## BRANCH
