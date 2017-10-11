@@ -12,7 +12,12 @@ http://windows.github.com/
   to investigate several options of future development)
 - Merging: Allow you to merge branches together
 - Cloning: Another developer can copy your Git-Hub project
-- Forking: To promote social coding 
- 
- 
+- Forking: To promote social coding
+
+- git clone <url>  .
+- git remote -v  show information about git
+- git branch -a
+- git pull bring all changes from last pull
+
+
 

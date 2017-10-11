@@ -4,6 +4,8 @@
 
 **cd  PROJECT_DIR**
 
+**git --version - Print Git version
+
 **git config --global user.name "YOUR_NAME"**
 
 **git config --global user.email "YOUR_EMAIL"**
@@ -16,17 +18,23 @@
 
 **git help add** - help on add command
 
-**git init** - Create a brand new Git repository in this directory
-
 
 
 ## Working with git
 
+**git init** - Create a brand new Git repository in this directory
+
 **git add .** - Add all changed files to stage area
+
+**git add -A** - Add all changed files to stage area
 
 **git add *.txt** - Add all *.txt files to stage area
 
 **git add FILENAME** - Add FILENAME again
+
+**git reset FILENAME** - Remove file from staging area
+
+**git reset ** - Remove all files from staging area
 
 **git rm --cached FILENAME** - to un-track FILENAME (remove from staging area)
 
@@ -123,12 +131,32 @@ git log --before="2014-04-13" # Changes made before this date
 **git branch -d proj_v2** - deleting branch
 
 
-##.gitignore 
+##.gitignore  (must be in project dir - not in .git)
 
 *.apk
 
 *.exe
 
+.ThisDir
+
 bin/
 
 
+##Common workflow:
+**git branch new_branch_name** 
+**git branch** see all branches. *master is the activated bransh
+**git checkout new_branch_name**start working with the new branch 
+**git branch** see all branches. *new_branch_name is the activated bransh
+**make changes to the source code**
+**git add -A**
+**git commit -m "message"** it commit the changed to the branch. it's no effect to the master or remote repository
+**git push -u origin new_branch_name** push this branch to remote repository
+**git merge new_branch_name** merge new_branch_name with master branch
+**git push origin master** push this branch to remote repository
+**git branch -d new_branch_name** delete not needed branch
+
+
+
+## Remarks
+*** The stage area allow you all time add several files and commit them (it allow
+you nor commit all files al ones)
