@@ -68,22 +68,21 @@ b900c412b20d0ae61e4f81f3ec60766bce8f107a file1.txt: Add line 3
 ```
 
 
-##Git Log
+## Git Log
 ```
-git log # Shows all of the previous commit messages in reverse order
-git log --pretty=oneline # Shows commits on one line
-git log --pretty=format:"%h : %an : %ar : %s"
-  %h - Abbreviated Hash
-  %an - Authors Name
-  %ar - Date Changed
-  %s - First Line of Comment
-git log -p -2 # Shows the last 2 commit changes
-git log --stat # Prints abbreviated stats
-git log --since=1.weeks # Show only changes in the last week
-git log --since="2014-04-12" # Show changes since this date
-git log --author="Derek Banas" # Changes made by author
-git log --before="2014-04-13" # Changes made before this date
-
+$ git log                                     # Shows all previous commit messages in reverse order
+$ git log --pretty=oneline                    # Shows commits on one line
+$ git log --pretty=format:"%h : %an : %ar : %s"
+                                              # %h - Abbreviated Hash
+                                              # %an - Authors Name
+                                              # %ar - Date Changed
+                                              # %s - First Line of Comment
+$ git log -p -2                               # Shows the last 2 commit changes
+$ git log --stat                              # Prints abbreviated stats
+$ git log --since=1.weeks                     # Show only changes in the last week
+$ git log --since="2014-04-12"                # Show changes since this date
+$ git log --author="Derek Banas"              # Changes made by author
+$ git log --before="2014-04-13"               # Changes made before this date
 ```
 
 
@@ -102,7 +101,7 @@ $ git branch -D proj_v2                       # Deleting dont merge  branch
 ```
 
 
-##.gitignore  (must be in project dir - not in .git)
+## .gitignore  (must be in project dir - not in .git)
 ```
 *.apk
 .ThisFile
