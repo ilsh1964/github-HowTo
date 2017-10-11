@@ -2,16 +2,15 @@
 
 ## Creating a brand new git repository
 ```
-**cd  PROJECT_DIR**
-**git --version - Print Git version
-**git config --global user.name "YOUR_NAME"**
-**git config --global user.email "YOUR_EMAIL"**
-**git config --global core.editor "vim"** - Change the default editor
-**git config --list** - Show your config
-**git help** - Bring all git help command
-**git help add** - help on add command
+$ cd  PROJECT_DIR
+$ git --version                               # Print Git version
+$ git config --global user.name "YOUR_NAME"
+$ git config --global user.email "YOUR_EMAIL"
+$ git config --global core.editor "vim"       # Change the default editor
+$ git config --list                           # Show your config
+$ git help                                    # Bring all git help command
+$ git help add                                # help on add command
 ```
-
 
 ## Working with git
 ```
