@@ -87,18 +87,18 @@ git log --before="2014-04-13" # Changes made before this date
 ```
 
 
-##Branching and Merging
+## Branching and Merging
 ```
-**git branch** - show all brances
-**git branch proj_v2** - create a new brand called proj_v2
-**git checkout proj_v2** - working with the new branch
-**git checkout -b proj_v2** - create a new branch and jump to it
-**git add file1.txt**
-**git commit -m "commit in the new branch"**
-**git checkout master** - Go to the master branch - without file1.txt
-**git merge proj_v2** - Merge file1.txt from proj_v2 branch
-**git branch -d proj_v2** - deleting merge  branch
-**git branch -D proj_v2** - deleting dont merge  branch
+# git branch                                            # Show all brances
+# git branch proj_v2                                    # Create a new brand called proj_v2
+# git checkout proj_v2                                  # Working with the new branch
+# git checkout -b proj_v2                               # Create a new branch and jump to it
+# git add file1.txt                                     # 
+# git commit -m "commit in the new branch"              # 
+# git checkout master                                   # Go to the master branch - without file1.txt
+# git merge proj_v2                                     # Merge file1.txt from proj_v2 branch
+# git branch -d proj_v2                                 # Deleting merge  branch
+# git branch -D proj_v2                                 # Deleting dont merge  branch
 ```
 
 
