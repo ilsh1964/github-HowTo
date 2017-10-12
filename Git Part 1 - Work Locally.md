@@ -15,8 +15,10 @@ $ git help add                                # help on add command
 ## Working with git
 ```
 $ git init                                    # Create a brand new Git repository in this directory
-$ git add .                                   # Add all changes files to the stage area
-$ git add -A                                  # Add all changes files (inc removed) to staging area
+$ git add .                                   # Add all changes in the current directory to the stage area
+$ git add -A                                  # Add all changes (removed, modified, sub-dir, new) files to the staging area
+$ git add -A dir_name/                        # Add all changes in dir_name/ to the staging area
+$ git add -u                                  # Add only changed and removed files (not new) to the staging area
 $ git add *.txt                               # Add all *.txt files to the stage area
 $ git add FILENAME                            # Add FILENAME again
 $ git reset FILENAME                          # Remove file from staging area
@@ -28,6 +30,7 @@ $ git status                                  # What files have been changed
 $ git status -s                               # Show what has been changed in compact list
 $ git commit -m "My First Commit"             # Commit
 $ git commit -a -m "some msg"                 # Add files + commit in one command
+$ git commit --amend "new commit message"     # change last commit msg
 $ git log                                     # See all your commits
 $ git log --pretty=oneline                    # See the changes in one compact line
 $ git log --oneline                           # Compact list of commits
